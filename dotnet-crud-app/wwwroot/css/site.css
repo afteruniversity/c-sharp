@@ -1,0 +1,21 @@
+/* wwwroot/css/site.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.btn {
+  margin: 5px;
+}
