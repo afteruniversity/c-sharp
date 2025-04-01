@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appUsandoFlyoutPage.Views.Dandara"
+             BackgroundImageSource="fundo.png"
+             Title="Dandara">
+
+    <ScrollView>
+        <StackLayout Padding="5, 25">
+            <Label Text="Nome: Dandara Zumbi" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center" />
+            <Image Source="dandara.png" WidthRequest="250" HeightRequest="250" />
+            <StackLayout Padding="50, 10">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Dandara foi mulher de Zumbi dos Palmares e mãe de três filhos. Pouco se sabe sobre ela, mas foi descrita como uma grande e valente guerreira que auxiliou Zumbi em estratégias e planos de ataque e defesa. Dominava técnicas da capoeira e lutou em muitas batalhas a ataques a Palmares. Infelizmente, acabou se matando jogando-se da pedreira mais alta de Palmares, para não voltar à condição de escrava." HorizontalOptions="FillAndExpand" FontAttributes="Bold" FontSize="Medium" TextColor="Maroon" />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

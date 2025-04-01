@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appUsandoFlyoutPage.Views.Ellen"
+             BackgroundImageSource="fundo.png"
+             Title="Ellen">
+
+    <ScrollView>
+        <StackLayout Padding="5, 25">
+            <Label Text="Nome: Ellen Johnson Sirleaf" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center" />
+            <Image Source="ellen.png" WidthRequest="250" HeightRequest="250" />
+            <StackLayout Padding="50, 10">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="É a atual presidente da Libéria e a primeira mulher a ser eleita chefe de estado de um país africano. Foi eleita pela primeira vez em 2005 e reeleita em 2011, ano em que também ganhou o prêmio Nobel da Paz, pelo seu trabalho como a Primeira Ministra da Libéria." HorizontalOptions="FillAndExpand" FontAttributes="Bold" FontSize="Medium" TextColor="OrangeRed" />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
