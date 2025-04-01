@@ -1,0 +1,67 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = appUsandoFlyoutPage
+build_property.ProjectDir = C:\Users\CESARCHAVESFONSECAWA\source\repos\appUsandoFlyoutPage\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/CESARCHAVESFONSECAWA/source/repos/appUsandoFlyoutPage/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appUsandoFlyoutPage.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/CESARCHAVESFONSECAWA/source/repos/appUsandoFlyoutPage/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appUsandoFlyoutPage.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/CESARCHAVESFONSECAWA/source/repos/appUsandoFlyoutPage/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appUsandoFlyoutPage.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/CESARCHAVESFONSECAWA/source/repos/appUsandoFlyoutPage/Views/Dandara.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appUsandoFlyoutPage.Views.Dandara.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Dandara.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Dandara.xaml
+
+[C:/Users/CESARCHAVESFONSECAWA/source/repos/appUsandoFlyoutPage/Views/Ellen.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appUsandoFlyoutPage.Views.Ellen.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Ellen.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Ellen.xaml
+
+[C:/Users/CESARCHAVESFONSECAWA/source/repos/appUsandoFlyoutPage/Views/FlyoutPageMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appUsandoFlyoutPage.Views.FlyoutPageMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FlyoutPageMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FlyoutPageMenu.xaml
+
+[C:/Users/CESARCHAVESFONSECAWA/source/repos/appUsandoFlyoutPage/Views/Menu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appUsandoFlyoutPage.Views.Menu.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Menu.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Menu.xaml
+
+[C:/Users/CESARCHAVESFONSECAWA/source/repos/appUsandoFlyoutPage/Views/Oprah.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appUsandoFlyoutPage.Views.Oprah.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Oprah.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Oprah.xaml

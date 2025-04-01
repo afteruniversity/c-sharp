@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appUsandoFlyoutPage.Views.Oprah"
+             BackgroundImageSource="fundo.png"
+             Title="Oprah">
+
+    <ScrollView>
+        <StackLayout Padding="5, 25">
+            <Label Text="Nome: Oprah Winfrey" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center" />
+            <Image Source="oprah.png" WidthRequest="250" HeightRequest="250" />
+            <StackLayout Padding="50, 10">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Oprah é apresentadora de televisão e empresária, além de ser uma das pessoas mais influentes do mundo. Ganhou múltiplos prêmios Emmy por seu programa de TV, que é o talk-show com maior audiência da história da televisão norte-americana." HorizontalOptions="FillAndExpand" FontAttributes="Bold" FontSize="Medium" TextColor="DarkOrange" />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
