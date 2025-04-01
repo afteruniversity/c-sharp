@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage  xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:paginas="clr-namespace:appUsandoFlyoutPage.Views"
+             x:Class="appUsandoFlyoutPage.Views.FlyoutPageMenu"
+             FlyoutLayoutBehavior="Popover"
+             Title="Mulheres que Mudaram o Mundo">
+
+    <FlyoutPage.Flyout>
+        <!-- Página do Menu -->
+        <paginas:Menu />
+    </FlyoutPage.Flyout>
+    <FlyoutPage.Detail>
+        <!-- Página de Conteúdo/Detalhes -->
+        <NavigationPage>
+            <x:Arguments>
+                <paginas:Dandara />
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
+</FlyoutPage>
