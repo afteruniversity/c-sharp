@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\projetosTurmaD2Terca\\exercicio01Grupo11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD4D76F-6472-447C-B210-618DC2CBC724}|exercicio01Grupo11.csproj|c:\\users\\user\\desktop\\projetosturmad2terca\\exercicio01grupo11\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3FD4D76F-6472-447C-B210-618DC2CBC724}|exercicio01Grupo11.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD4D76F-6472-447C-B210-618DC2CBC724}|exercicio01Grupo11.csproj|c:\\users\\user\\desktop\\projetosturmad2terca\\exercicio01grupo11\\exercicio01grupo11.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3FD4D76F-6472-447C-B210-618DC2CBC724}|exercicio01Grupo11.csproj|solutionrelative:exercicio01grupo11.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD4D76F-6472-447C-B210-618DC2CBC724}|exercicio01Grupo11.csproj|c:\\users\\user\\desktop\\projetosturmad2terca\\exercicio01grupo11\\exercicio01.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3FD4D76F-6472-447C-B210-618DC2CBC724}|exercicio01Grupo11.csproj|solutionrelative:exercicio01.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\projetosTurmaD2Terca\\exercicio01Grupo11\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\projetosTurmaD2Terca\\exercicio01Grupo11\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswDkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-25T00:33:42.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "exercicio01Grupo11",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\projetosTurmaD2Terca\\exercicio01Grupo11\\exercicio01Grupo11.csproj",
+              "RelativeDocumentMoniker": "exercicio01Grupo11.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\projetosTurmaD2Terca\\exercicio01Grupo11\\exercicio01Grupo11.csproj",
+              "RelativeToolTip": "exercicio01Grupo11.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-25T00:28:25.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Exercicio01.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\projetosTurmaD2Terca\\exercicio01Grupo11\\Exercicio01.xaml",
+              "RelativeDocumentMoniker": "Exercicio01.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\projetosTurmaD2Terca\\exercicio01Grupo11\\Exercicio01.xaml",
+              "RelativeToolTip": "Exercicio01.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T11:41:48.546Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
