@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="exercicio01Grupo11.MainPage"
+             Title="Exercicio 01 Grupo 11!!!!">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                Padding="10"
+                Text="Cleslley de Moura Lima"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+            />
+            <Label
+                Padding="10"
+                Text="Amanda Cavalcante da Silva"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+            />
+            <Label
+                Padding="10"
+                Text="Cesar Chaves Fonseca Watanabe Maluf"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+            />
+            <Label
+                Padding="10"
+                Text="Gabriel Azevedo Junior"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+            />
+            <Label
+                Padding="10"
+                Text="Victor Claudino Vieira Moura"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+            />
+            <Label
+                Padding="10"
+                Text="Lazim Francisco"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+            />
+                    <Label
+                Padding="10"
+                Text="Breno Silva Marinho"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+            />
+            
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me" 
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
