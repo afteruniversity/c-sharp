@@ -1,0 +1,85 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = exercicio02Grupo01
+build_property.ProjectDir = C:\Users\User\Desktop\csharp\exercicio02Grupo01\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/User/Desktop/csharp/exercicio02Grupo01/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = exercicio02Grupo01.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/User/Desktop/csharp/exercicio02Grupo01/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = exercicio02Grupo01.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/User/Desktop/csharp/exercicio02Grupo01/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = exercicio02Grupo01.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/User/Desktop/csharp/exercicio02Grupo01/Views/Amanda.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = exercicio02Grupo01.Views.Amanda.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Amanda.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Amanda.xaml
+
+[C:/Users/User/Desktop/csharp/exercicio02Grupo01/Views/Cesar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = exercicio02Grupo01.Views.Cesar.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cesar.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cesar.xaml
+
+[C:/Users/User/Desktop/csharp/exercicio02Grupo01/Views/Cleslley.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = exercicio02Grupo01.Views.Cleslley.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cleslley.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cleslley.xaml
+
+[C:/Users/User/Desktop/csharp/exercicio02Grupo01/Views/Felipe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = exercicio02Grupo01.Views.Felipe.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Felipe.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Felipe.xaml
+
+[C:/Users/User/Desktop/csharp/exercicio02Grupo01/Views/Gabriel.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = exercicio02Grupo01.Views.Gabriel.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Gabriel.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Gabriel.xaml
+
+[C:/Users/User/Desktop/csharp/exercicio02Grupo01/Views/Matheus.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = exercicio02Grupo01.Views.Matheus.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Matheus.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Matheus.xaml
+
+[C:/Users/User/Desktop/csharp/exercicio02Grupo01/Views/Principal.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = exercicio02Grupo01.Views.Principal.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Principal.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Principal.xaml
+
+[C:/Users/User/Desktop/csharp/exercicio02Grupo01/Views/Victor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = exercicio02Grupo01.Views.Victor.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Victor.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Victor.xaml

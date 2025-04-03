@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="exercicio02Grupo01.Views.Principal"
+             Title="EXERCICIO 02."
+             Padding="10"
+             BackgroundColor="#F0F8FF">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="32621272" Order="Secondary" Priority="0" Clicked ="Cleslley" />
+        <ToolbarItem Text="34383212" Order="Secondary" Priority="1" Clicked ="Amanda" />
+        <ToolbarItem Text="34309985" Order="Secondary" Priority="2" Clicked ="Cesar" />
+        <ToolbarItem Text="34345558" Order="Secondary" Priority="3" Clicked ="Felipe" />
+        <ToolbarItem Text="42439892" Order="Secondary" Priority="4" Clicked ="Matheus" />
+        <ToolbarItem Text="34427309" Order="Secondary" Priority="5" Clicked ="Victor" />
+        <ToolbarItem Text="33414807" Order="Secondary" Priority="6" Clicked ="Gabriel" />
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+        <Label Text="Exercicio 02 Grupo 01"
+               FontSize="40"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+    </StackLayout>
+
+</ContentPage>
