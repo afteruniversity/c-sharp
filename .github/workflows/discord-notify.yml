@@ -36,6 +36,7 @@ jobs:
                 \"color\": 3447003,
                 \"fields\": [
                   {
+                   \"avatar_url\": \ "https://github.com/<usuario>.png"
                     \"name\": \"🔗 Commit\",
                     \"value\": \"[Ver commit](${COMMIT_URL})\"
                   },
