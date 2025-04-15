@@ -1,31 +1,56 @@
-name: Notificar no Discord
+name: "Notificar no Discord - Front-End"
 
 on:
   push:
-    branches:
-      - '**'  # qualquer branch
+    branches: [main]
 
 jobs:
-  notify-discord:
+  notify:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Enviar mensagem no Discord
+      - name: Verificar se o webhook está setado
+        run: |
+          if [ -z "${{ secrets.DISCORD_WEBHOOK }}" ]; then
+            echo "⚠️ DISCORD_WEBHOOK está vazio"
+            exit 1
+          else
+            echo "✅ DISCORD_WEBHOOK está configurado"
+          fi
+
+      - name: Enviar notificação para o Discord (Front-End)
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-          AUTHOR: ${{ github.actor }}
-          BRANCH: ${{ github.ref_name }}
-          REPO: ${{ github.repository }}
-          MESSAGE: ${{ github.event.head_commit.message }}
-          URL: ${{ github.event.head_commit.url }}
+          COMMIT_URL: "${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}"
+          COMMIT_MSG: "${{ github.event.head_commit.message }}"
+          COMMIT_AUTHOR: "${{ github.actor }}"
+          COMMIT_BRANCH: "${{ github.ref_name }}"
         run: |
+          DATA_HORA=$(TZ=America/Sao_Paulo date "+%a %d %b %Y %T %Z")
           curl -H "Content-Type: application/json" \
             -X POST \
             -d "{
-              \"content\": \"**Novo commit**
-            🌿 Branch: \`${BRANCH}\`
-            👤 Autor: \`${AUTHOR}\`
-            📦 Projeto: \`${REPO}\`
-            💬 Commit: ${MESSAGE}
-            [Ver commit](${URL})\"
-                        }" \
-                        $DISCORD_WEBHOOK
+              \"embeds\": [{
+                \"title\": \"Novo commit\",
+                \"description\": \"**${COMMIT_AUTHOR}** enviou um novo commit para o repositório **${GITHUB_REPOSITORY}**.\n\n💬 **Mensagem do commit:**\n${COMMIT_MSG}\",
+                \"color\": 3447003,
+                \"fields\": [
+                  {
+                    \"name\": \"🔗 Commit\",
+                    \"value\": \"[Ver commit](${COMMIT_URL})\"
+                  },
+                  {
+                    \"name\": \"📦 Branch\",
+                    \"value\": \"${COMMIT_BRANCH}\",
+                    \"inline\": true
+                  },
+                  {
+                    \"name\": \"🕒 Horário\",
+                    \"value\": \"${DATA_HORA}\",
+                    \"inline\": true
+                  }
+                ]
+              }]
+            }" \
+            "$DISCORD_WEBHOOK"
+
