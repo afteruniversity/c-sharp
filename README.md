@@ -1,7 +1,7 @@
 <h1>C# CODES AND STUFF REPOSITORY</h1>
 <hr><hr>
 
-<h2>.NET CRUD-APP: </h2>
+<h2>ASP.NET CRUD-APP: </h2>
 <p>
   Trata-se de um CRUD desenvolvido com .NET, utilizando o padrão de arquitetura MVC (Model-View-Controller). O sistema conta com um mecanismo de autenticação de usuários, garantindo que apenas usuários devidamente logados possam acessar e     manipular as funcionalidades do sistema.
 </p>
