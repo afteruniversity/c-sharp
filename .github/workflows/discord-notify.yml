@@ -1,0 +1,22 @@
+name: Notificar commits no Discord
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Enviar mensagem para o Discord
+        uses: Ilshidur/action-discord@master
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          message: |
+            **Novo Commit!**
+            🔧 **Projeto**: `${{ github.repository }}`
+            🌿 **Branch**: `${{ github.ref_name }}`
+            👤 **Autor**: `${{ github.actor }}`
+            💬 **Mensagem**: `${{ github.event.head_commit.message }}`
+            [Ver commit](${{ github.event.head_commit.url }})
