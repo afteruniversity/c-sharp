@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="exercicio04CelularGrupo20.Views.Principal"
+             BackgroundImageSource = "background.jpg"
+             Title="Principal">
+
+    <StackLayout VerticalOptions="Center" Padding="6">
+        <StackLayout>
+            <Border Stroke="YellowGreen" Padding="10,5" StrokeShape="RoundRectangle 8,0" >
+                <Entry	Placeholder="Marca do Celular" x:Name="celFabricante" BackgroundColor="#03a9fc" TextColor="White" FontAttributes="Italic" ClearButtonVisibility="WhileEditing"/>
+            </Border>
+            <Border Stroke="YellowGreen" Padding="10,5" StrokeShape="RoundRectangle 8,0" >
+                <Entry	Placeholder="Modelo do Celular" x:Name="celModelo" BackgroundColor="#03a9fc" TextColor="White" FontAttributes="Italic" TextTransform="Uppercase" ClearButtonVisibility="WhileEditing"/>
+            </Border>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Padding="10" HorizontalOptions="Center">
+            <Button	Text="Exibir Dados" x:Name="btnExibirDados" Clicked="exibirDadosClicked" BackgroundColor="#4e636e" FontAttributes="Bold" Margin="4" HorizontalOptions="Center"/>
+            <Button	Text="Limpar" x:Name="btnLimpar" Clicked="limparClicked" BackgroundColor="#4e636e" FontAttributes="Bold" Margin="4" HorizontalOptions="Center"/>
+            <Button	Text="Sair" x:Name="btnSair" Clicked="sairClicked" BackgroundColor="#fc1f0f" FontAttributes="Bold" Margin="4" HorizontalOptions="Center"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
+
