@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appProvaA1Barco.UI.AlterarBarco"
+             BackgroundImageSource="fundobarco.png"
+             Title="{Binding barNome}">
+            <!-- Barra de Menu com o método para Salvar a alteração de um Produto -->
+            <ContentPage.ToolbarItems>
+                <ToolbarItem Text="Salvar" IconImageSource="salvarproduto.png" Clicked="salvarProduto" />
+            </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Spacing="3">
+            <Border Stroke="#87CEFA" Padding="10,5" StrokeShape="RoundRectangle 8,0" >
+                <Entry Placeholder="Descrição do Barco:" x:Name="txtNome" FontAttributes="Bold" Text="{Binding BarNome}" Margin="4" ClearButtonVisibility="WhileEditing" />
+            </Border>
+            <Border Stroke="#87CEFA" Padding="10,5" StrokeShape="RoundRectangle 8,0" >
+                <Entry Placeholder="Quantidade de Barcos:" x:Name="txtPeso" FontAttributes="Bold" Text="{Binding BarPeso}" Margin="4" Keyboard="Numeric" ClearButtonVisibility="WhileEditing" />
+            </Border>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

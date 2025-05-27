@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appProvaA1Barco.UI.ListaBarco"
+             BackgroundImageSource="fundobarco.png"
+             Title="Lista de Barcos">
+            <!-- Barra de Menu com o método para Incluir um Novo Produto -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Incluir" IconImageSource="incluirproduto.png" Clicked="irIncluirBarco" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- Campo de Busca(Pesquisa) -->
+            <SearchBar x:Name="txtBusca" Margin="-10, 0, 0, 0" Placeholder="Qual o Produto?" TextChanged="txtBuscar" />
+            <!-- Limpando a tela quando for feita a pesquisa -->
+            <ListView x:Name="lstBarco" IsPullToRefreshEnabled="True" Refreshing="refCarregando" ItemSelected="lstBarcoItemSelected">
+                <!-- Criando as colunas da tabela, os cabeçalhos  -->
+                <ListView.Header>
+                    <Grid RowDefinitions="Auto" ColumnDefinitions="*, *, *">
+                        <Label Grid.Row="0" Grid.Column="0" Text="Código(ID)" HorizontalTextAlignment="Center" FontAttributes="Bold" />
+                        <Label Grid.Row="0" Grid.Column="1" Text="Nome" HorizontalTextAlignment="Center" FontAttributes="Bold" />
+                        <Label Grid.Row="0" Grid.Column="2" Text="Peso" HorizontalTextAlignment="Center" FontAttributes="Bold" />
+                    </Grid>
+                </ListView.Header>
+                <!-- Criando as linhas de detalhes, mostra o conteúdo dos atributos da Tabela Produto  -->
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <!-- Menu de contexto, método para Excluir um Produto  -->
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="Excluir Barco" IconImageSource="excluirproduto.png" Clicked="excluirProduto" />
+                            </ViewCell.ContextActions>
+                            <Grid RowDefinitions="Auto"
+                                    ColumnDefinitions="*, *, *">
+                                <Label Grid.Row="0" Grid.Column="0" Text="{Binding BarID}" HorizontalTextAlignment="Center" FontAttributes="Bold" />
+                                <Label Grid.Row="0" Grid.Column="1" Text="{Binding BarNome}" HorizontalTextAlignment="Center" FontAttributes="Bold" />
+                                <Label Grid.Row="0" Grid.Column="2" Text="{Binding BarPeso}" HorizontalTextAlignment="Center" FontAttributes="Bold" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
