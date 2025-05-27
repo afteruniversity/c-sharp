@@ -12,3 +12,11 @@
 
 
 ![Image](https://github.com/user-attachments/assets/b379a3fb-a218-40df-9054-edfef0ff38fc)
+
+## Projeto Final com tema BARCO
+
+<p> O projeto consiste em um CRUD, onde o usuário insere o nome e valor do barco e tem as funções de criação, edição, remoção, leitura e pesquisa dos barcos cadastrados.</p>
+
+- O projeto utiliza a extensão do SQLite para o armazenamento dos dados.
+
+![image](https://github.com/user-attachments/assets/9f41980a-10c3-483c-8894-84b46c5acfaa)
